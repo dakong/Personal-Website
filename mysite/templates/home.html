@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link type="text/css" rel="stylesheet" href="../static/css/main.css" />
+  <link href='http://fonts.googleapis.com/css?family=Raleway:700,400' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto" rel="stylesheet">
+</head>
+
+<body id="home-page">
+  <nav>
+    <div class="nav-center">
+      <a href="#">
+        Daniel Kong
+        </a>
+    </div>
+    <div class="nav-right">
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#resume">Resume</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- <div id="hamburger-btn">
+    <div class="hm-wrapper">
+      <div class="hm hmb-top">
+      </div>
+      <div class="hm hmb-mid">
+      </div>
+      <div class="hm hmb-bottom">
+      </div>
+    </div>
+  </div>
+  <div id="menu-wrapper" class="hide-hm-menu">
+    <div id="hm-menu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </div>
+    <div id="arrow-right">
+    </div>
+  </div> -->
+  <section id="home">
+    <div class="landing-container">
+      <div id="home-header">
+        <img alt="DK" src="images/profile-picture3.png" width="225px">
+        <p>Software Engineer crafted in </p>
+        <p>San Diego, CA</p>
+      </div>
+      <div id="cloud-left" class="cloud">
+        <img alt="Cloud" src="images/cloud.png">
+      </div>
+      <div id="cloud-right" class="cloud">
+        <img alt="Cloud" src="images/cloud.png">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="nav-section">
+    <div class="section-container">
+      <header class="section-title">
+        <h1>Hello World!</h1>
+        <div class="line-sep"></div>
+      </header>
+      <p>
+        Welcome to my site! My name is Daniel, and I'm currently a student at UC San Diego where I'm studying Computer Science and minoring in Business.
+      </p>
+      <p>My interests lie in building Software Applications that are both efficient as well as easy to use. My goal is to build software that brings people joy instead of frustration, by doing so I hope to connect the world through better user interfaces
+        and experiences!
+      </p>
+      <p>
+        Some hobbies of mine include spending time outdoors, and going hiking, running, and exploring the world around me.
+      </p>
+    </div>
+  </section>
+  <section id="resume" class="nav-section">
+    <div class="section-container">
+      <header class="section-title">
+        <h1>R&eacute;sum&eacute;</h1>
+        <div class="line-sep"></div>
+      </header>
+      <div class="resume-education">
+        <header class="resume-section-tagline">
+          <h4>Education</h4>
+        </header>
+        <div>
+          <header class="resume-section-header">
+            <h4>University of California, San Diego <span class="right">June 2017</span></h4>
+            <h4>Computer Science B.S. <span class="right">La Jolla, CA</span></h4>
+          </header>
+          <h5>Relevant Course Work</h5>
+          <ul>
+            <li>Client-side Web Programming</li>
+            <li>Enterprise-class Web Applications</li>
+            <li>Advanced Software Engineering</li>
+            <li>Human Computer Interaction</li>
+            <li>Principles of Computer Operating Systems</li>
+            <li>Database System Principles</li>
+            <li>Computer Architecture</li>
+            <li>Design and Analysis of Algorithms</li>
+            <li>Advanced Data Structures</li>
+          </ul>
+        </div>
+      </div>
+      <header class="resume-section-tagline">
+        <h4>Skills</h4>
+      </header>
+      <div class="resume-skills">
+        <div class="skill-section">
+          <h5>Languages</h5>
+          <ul>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>C/C++</li>
+            <li>SQL</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+        <div class="skill-section">
+          <h5>Tools</h5>
+          <ul>
+            <li>React.JS/ React Native</li>
+            <li>Node.JS/ Express</li>
+            <li>Ext.JS</li>
+            <li>Java Spring Boot</li>
+            <li>HandleBars</li>
+            <li>JQuery</li>
+            <li>HTML/ CSS</li>
+          </ul>
+        </div>
+        <div class="skill-section">
+          <h5>Concepts</h5>
+          <ul>
+            <li>Front End Development</li>
+            <li>Rapid Prototyping</li>
+            <li>Back End Development</li>
+            <li>REST / AJAX</li>
+            <li>MVC</li>
+            <li>Agile Development</li>
+          </ul>
+        </div>
+      </div>
+      <header class="resume-section-tagline">
+        <h4>Experience</h4>
+      </header>
+      <header class="resume-section-header">
+        <h4>Sony PlayStation <span class="right">June 2016</span></h4>
+        <h4>Front End Developer Intern<span class="right">San Mateo, CA</span></h4>
+      </header>
+      <p>
+        Worked in PlayStation's World Wide Studio's internal software team under product development. I was asked to complete a feature request that would create a schedule view of all of PlayStation's original game release dates. The schedule view was created
+        using the Sencha framework, Ext.JS, along with Bryntum's Scheduler plugin. Created custom back end API's with the Java Spring Boot framework, and QueryDsl's JPA, which would send the correct data to the schedule view.
+      </p>
+      <header class="resume-section-header">
+        <h4>UC San Diego, UCPA <span class="right">June 2015</span></h4>
+        <h4>Web Developer<span class="right">La Jolla, CA</span></h4>
+      </header>
+      <p>
+        Under UCPA, I created and managed responsive web pages, and elements for departments associated within the University of California San Diego. I used tools like Photoshop and Illustrator to optimize images or create custom graphics to be used on various
+        websites. One project huge project that I was a part of was the entire re-design of UC San Diego's calendar website.
+      </p>
+    </div>
+    <a style="text-decoration: none" href="resume.pdf" target="_blank">
+      <div class='resume-button'>
+        <p>View PDF</p>
+      </div>
+    </a>
+  </section>
+
+  <section id="projects" class="nav-section">
+    <div class="section-container">
+      <header class="section-title">
+        <h1>Projects</h1>
+        <div class="line-sep"></div>
+      </header>
+      <div id="project-container">
+        <div class="project-cards">
+          <a class="github-link" target="_blank" href="https://github.com/dakong/Remindr-Bot">
+            <div class="img-placeholder" style="background-color: #00ACD3;">
+              <h1> Remindr-Bot </h1>
+            </div>
+          </a>
+          <div class="card-bottom">
+            <p>
+              Facebook Chat Bot that reminds users of everyday tasks, todos, or errands at a specified time.
+            </p>
+            <div class="card-tags">
+              <ul>
+                <li>Express.JS</li>
+                <li>FaceBook Chat API</li>
+                <li>Wit.AI</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="project-cards">
+          <a class="github-link" target="_blank" href="https://bucketwithfriends.herokuapp.com/">
+            <div class="img-placeholder" style="background-color: #485565;">
+              <img class="project-img" src="images/project-photos/bucket-app-mac.png">
+            </div>
+          </a>
+          <div class="card-bottom">
+            <p>
+              Allows users to create activities that they find from Yelp and organize them into collaborative bucket lists.
+            </p>
+            <div class="card-tags">
+              <ul>
+                <li>React.JS</li>
+                <li>Yelp API</li>
+                <li>Express.JS</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-cards">
+          <a class="github-link" target="_blank" href="https://github.com/dakong/WebStormTroopers">
+            <div class="img-placeholder" style="background-color: #7CA4CC;">
+              <img class="project-img" src="images/project-photos/emissary-appointments-mac.png">
+            </div>
+          </a>
+          <div class="card-bottom">
+            <p>
+              Web Application that creates better and smarter checkin's for clients or patients.
+            </p>
+            <div class="card-tags">
+              <ul>
+                <li>Express.JS</li>
+                <li>JQuery/HandleBars</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-cards">
+          <a class="github-link" target="_blank" href="http://ucsdscatterplot-env.us-west-2.elasticbeanstalk.com/">
+            <div class="img-placeholder" style="background-color: white;">
+              <img class="project-img" src="images/project-photos/ucsd-data-vis.png">
+            </div>
+          </a>
+          <div class="card-bottom">
+            <p>
+              Data visualization tool that plots course data based on average GPA received and time spent studying at UC San Diego.
+            </p>
+            <div class="card-tags">
+              <ul>
+                <li>React.JS</li>
+                <li>D3.JS</li>
+                <li>AWS Elastic Beanstalk</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="left">&copy; Daniel Kong 2017</p>
+    <div class="right">
+      <ul>
+        <li>
+          <a href="mailto:dakong94@gmail.com">Email</a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/dakong94" target="_blank">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://github.com/dakong" target="_blank">GitHub</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
